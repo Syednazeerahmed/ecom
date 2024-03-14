@@ -30,7 +30,7 @@ export const Banner = () => {
                         <div className="text-content">
                             <h1>OFFER</h1>
                             <p>
-                                BOAT 3A56 WATER PROOF HEADSET GET IT TODAY AT RUPEES  5999 ONLY 
+                                ALL ITEMS GET IT TODAY AT RUPEES  500 ONLY 
                                 ONE DAY OFFER 
                             </p>
                             <div className="ctas">
@@ -56,7 +56,7 @@ export const Banner = () => {
                             <div className="text-content">
                                 <h1>OFFER</h1>
                                 <p>
-                                    BOAT 3A56 WATER PROOF HEADSET GET IT TODAY AT RUPEES  5999 ONLY 
+                                    ALL ITEMS GET IT TODAY AT RUPEES  500 ONLY 
                                     ONE DAY OFFER 
                                 </p>
                                 <div className="ctas">
@@ -79,7 +79,7 @@ export const Banner = () => {
                         <div className="text-content">
                             <h1>OFFER</h1>
                             <p>
-                                BOAT 3A56 WATER PROOF HEADSET GET IT TODAY AT RUPEES  5999 ONLY 
+                                ALL ITEMS GET IT TODAY AT RUPEES  500 ONLY 
                                 ONE DAY OFFER 
                             </p>
                             <div className="ctas">
@@ -97,7 +97,7 @@ export const Banner = () => {
                         <div className="text-content">
                             <h1>OFFER</h1>
                             <p>
-                                BOAT 3A56 WATER PROOF HEADSET GET IT TODAY AT RUPEES  5999 ONLY 
+                                ALL ITEMS GET IT TODAY AT RUPEES  500 ONLY 
                                 ONE DAY OFFER 
                             </p>
                             <div className="ctas">
