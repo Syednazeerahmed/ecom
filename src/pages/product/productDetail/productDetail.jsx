@@ -1,7 +1,6 @@
 import React, { useContext } from "react";
-import "../../styles/productDetail.css";
-import { Context } from "../../context/context";
-import '../../styles/productDetail.css'
+import { Context } from "../../../context/context";
+import './productDetail.css'
 
 
 export const ProductDetail = () => {

@@ -1,0 +1,98 @@
+.pdBackground {
+    background-color: rgba(200, 200, 200);
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pdContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 2em;
+    border-radius: 1em;
+    box-shadow: 5px 5px 5px #3e2c3a;
+    width: 35em;
+    height: 25em;
+    position: relative;
+}
+
+.pdContainer .closeBtn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 2em;
+    padding: .5em .7em;
+    border-radius: .4em;
+    /* background-color: #3e2c3a; */
+    /* color: white; */
+    border: none;
+}
+
+.pdContainer img {
+    /* width: 20em; */
+    height: 20em;
+    margin: 1em;
+}
+
+/* .pdContainer h1{
+    font-size: 2em;
+    margin: 1em;
+} */
+
+.pdContainer p {
+    font-size: 1.3em;
+    margin: .5em;
+}
+
+
+.pdContainer button:hover {
+    background-color: #de1a1a;
+    color: white;
+    cursor: pointer;
+}
+
+.pdContainer button:active {
+    transform: scale(0.9);
+}
+
+.pdContainer .buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.pdContainer .buttons button {
+    margin: 0;
+    width: 1em;
+    padding: 0;
+    font-size: 2em;
+}
+
+.pdContainer .buttons input {
+    padding: 0;
+    width: 2em;
+    margin: 0 1em;
+    font-size: 1.5em;
+}
+
+.pdContainer .buttons input[type="number"] {
+    width: 3em;
+    text-align: center;
+}
+
+.pdContainer .buttons input[type="number"]:focus {
+    outline: none;
+}
+
+.pdContainer .buttons input[type="number"]::-webkit-inner-spin-button,
+.pdContainer .buttons input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}

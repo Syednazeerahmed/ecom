@@ -1,10 +1,9 @@
-import React, { useContext } from 'react';
-import '../../App.css';
-import '../../styles/card.css';
-import { Context } from '../../context/context';
+import React, { useContext } from "react";
+import "../../../App.css";
+import "./card.css";
+import { Context } from "../../../context/context";
 
 export const Card = (props) => {
-
   // const { id, name, src, quantity, ingredients, isAvailable, price } = props.data;
   const { id, name, src, quantity, price } = props.data;
   // const { addToCart, cartItems, removeFromCart} = useContext(Context);
@@ -34,4 +33,4 @@ export const Card = (props) => {
       </button>
     </div>
   );
-}
+};

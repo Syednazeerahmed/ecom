@@ -2,9 +2,9 @@ import React, { useContext } from 'react';
 import { Context } from '../../context/context';
 import { PRODUCTS } from '../product/products';
 import '../../App.css';
-import { CartItem } from './cart-item';
-import { useNavigate } from 'react-router-dom';
-import '../../styles/cart.css';
+import { CartItem } from "./cart-item/cart-item";
+import { useNavigate } from "react-router-dom";
+import "./cart.css";
 
 export const Cart = () => {
   const { cartItems } = useContext(Context);
@@ -28,8 +28,8 @@ export const Cart = () => {
             })}
           </div>
           <div className="second">
-            <p className="subtotal">Sub-Total : {subtotal}</p>
             <div>
+              <h1 className="subtotal">Sub-Total : {subtotal}</h1>
               <button
                 onClick={() => {
                   navigate("/");

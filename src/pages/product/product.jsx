@@ -1,8 +1,8 @@
 import React,{ useContext } from 'react';
-import './../../styles/product.css'
+import './/product.css'
 import { PRODUCTS } from './products';
-import { Card } from './card';
-import { ProductDetail } from './productDetail';
+import { Card } from "./card/card";
+import { ProductDetail } from "./productDetail/productDetail";
 import { Context } from '../../context/context';
 import { Banner } from './Banner/Banner';
 export const Product = () => {
