@@ -13,4 +13,10 @@ body {
   font-size: 16px;
   line-height: 1.4;
   font-weight: 500;
+  background-color: rgba(172, 168, 168, 0.175);
+}
+
+body,
+html {
+  scroll-behavior: smooth;
 }

@@ -34,14 +34,11 @@ export const Banner = () => {
                                 ONE DAY OFFER 
                             </p>
                             <div className="ctas">
-                                <div className="banner-cta" onClick={() => navigate("/product/4")}>
+                                <div className="banner-cta" >
                                     Read More
                                 </div>
 
-                                <div 
-                                    className="banner-cta v2"
-                                    onClick={() => navigate("/product/4")}
-                                > 
+                                <div className="banner-cta v2" > 
                                     Shop Now
                                 </div>
                             </div>
@@ -61,10 +58,7 @@ export const Banner = () => {
                                 </p>
                                 <div className="ctas">
                                     <div className="banner-cta">Read More</div>
-                                    <div 
-                                        className="banner-cta v2" 
-                                        onClick={() => navigate("/product/4")} 
-                                    >
+                                    <div className="banner-cta v2">
                                         Shop Now
                                     </div>
                                 </div>
